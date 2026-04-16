@@ -1,0 +1,8 @@
+name = input("enter your surname>>>")
+acc = input("enter your account number>>>")
+pin = input("enter your pin code>>>")
+money = input("enter your amount>>>")
+print("Mr/Mrs ",name," on your account <",int(acc),"><",int(money),"> now")
+new = input("enter sum>>>")
+plus = int(new) + int(money)
+print("Mr/Mrs",name,"on your account <",acc,"><",plus,"> now")
